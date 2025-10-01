@@ -1,13 +1,25 @@
 # wave-analysis
-Wave analysis tool for I-24 MOTION data
+A tool for analyzing stop-and-go waves in I-24 MOTION INCEPTION v1.0 data.
 
-This repository contains the wave analysis tool given the speed field generated from I-24 MOTION INCEPTION data v1.0.
+## Repository Structure
 
-File structure:
-- `data/`: Folder containing the input data files (speed fields) and output results.
-- `demo/`: Folder containing demo scripts to illustrate the usage of the wave analysis tool.
+- `data/`: Input data.
+- `demo/`: Example scripts demonstrating tool usage.
+- `results/`: Output results.
 
+## Wave Identification Flowchart
 
-## Flow chart for wave identification
+![Flow chart](flowchart.png)
 
-![flow chart](flowchart.png)
+## Citation
+
+If you use this code, please consider citing the following paper:
+
+```
+@article{ji2024scalable,  
+    title={Scalable analysis of stop-and-go waves},  
+    author={Ji, Junyi and Gloudemans, Derek and Wang, Yanbing and Zach{\'a}r, Gergely and Barbour, William and Sprinkle, Jonathan and Piccoli, Benedetto and Work, Daniel B},  
+    journal={arXiv preprint arXiv:2409.00326},  
+    year={2024}  
+}
+```
